@@ -1,0 +1,50 @@
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 878px;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    h2{
+        color: #9B9DA0;
+        font-family: Aleo;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin-right: 170px;
+        li{
+           color: rgba(0, 0, 0, 0.50);
+            font-family: Aleo;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;       
+            cursor: pointer;
+            transition: 0.3s    ;
+            &:hover{
+                color: #003399;
+            }
+
+        }
+    }
+    p{
+        color: rgba(0, 0, 0, 0.50);
+        font-family: Aleo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        cursor: pointer;    
+         transition: 0.3s    ;
+        &:hover{
+            color: #003399;
+        }
+    }
+}
