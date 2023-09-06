@@ -1,9 +1,9 @@
 import React from "react"
 
-function Number(){
+function Number({number}){
     return(
         <div className="number">
-        0
+        {number}
         </div>
     )
     }
