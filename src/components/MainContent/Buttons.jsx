@@ -3,14 +3,14 @@ import image from "../../assets/images/refresh.png"
 function Buttons({number, setNumber}){
 
 function plus() {
-    setNumber(number+3)
+    setNumber(number+1)
 }
 function reload() {
     setNumber(0)
 }
 function minus() {
     if (number > 1) {
-        setNumber(number - 2)
+        setNumber(number - 1  )
     }else if(number = 1){
         setNumber(number - 1)
     }
